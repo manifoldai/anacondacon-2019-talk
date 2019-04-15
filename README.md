@@ -12,6 +12,7 @@ Dask for ML Workflows code examples
 Docker installed on your machine
 
 If you are working on mac, it is recommended to increase the resources the docker-machine gets from the host operating system. The default resource limits can cause memory issues and the ipython kernel may restart during Dask operations. This is easily done through the Docker App GUI interface. See the screenshot below
+
 ![docker resources](assets/docker-resources.png)
 
 
@@ -50,11 +51,13 @@ In the example above, this would be `127.0.0.1:32768->8888/tcp`, so we would go 
 ### 3d. Connect to Dask dashboard
 
 Dask provides a nice dashboard to monitor the cluster. This is usually available on port 8787. We mapped the container's 8787 to a port on the host. The cell with following lines initializes a Dask cluster.
+
 `
 cluster = LocalCluster()
 client = Client(cluster)
 client
 `
+
 After your ran that notebook cell you can connect to the dashboard page by going to 
 
 `localhost:<PORT>/status`
