@@ -13,7 +13,7 @@ Docker installed on your machine
 
 If you are working on mac, it is recommended to increase the resources the docker-machine gets from the host operating system. The default resource limits can cause memory issues and the ipython kernel may restart during Dask operations. This is easily done through the Docker App GUI interface. See the screenshot below
 
-![docker resources](assets/docker-resources.png)
+![docker resources](assets/docker-resources.png =250x250)
 
 
 ### 2b. Setup
