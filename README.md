@@ -13,7 +13,7 @@ Docker installed on your machine
 
 If you are working on mac, it is recommended to increase the resources the docker-machine gets from the host operating system. The default resource limits can cause memory issues and the ipython kernel may restart during Dask operations. This is easily done through the Docker App GUI interface. See the screenshot below
 
-![docker resources](assets/docker-resources.png width="200" height="400")
+![docker resources](assets/docker-resources.png width="400" height="400")
 
 
 ### 2b. Setup
@@ -22,7 +22,7 @@ If you are working on mac, it is recommended to increase the resources the docke
 
 `docker ps` -> should launch an image like below
 
-<img src="assets/docker_ps.png" width="400" height="400">
+![docker ps](assets/docker_ps.png.png)
  
  Note down the PORTS information. We map the default jupyter notebook port 8888 and Dask's dashboard port 8787 to ports on your host machine that can be accessed.
 
