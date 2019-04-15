@@ -63,4 +63,8 @@ where PORT corresponds to the following value in PORTS:
 
 `127.0.0.1:<PORT>->8787/tcp`, a value near 32768
 
-In the example above, this would be `127.0.0.1:32769->8888/tcp`, so we would go to `localhost:32769/status`
+In the example above, this would be `127.0.0.1:32769->8787/tcp`, so we would go to `localhost:32769/status`
+
+When you are executing a dask operation,  the dashboard may look like below which provides information on running tasks and memory usage:
+
+![dask dashboard](assets/dask_dashboard.png)
