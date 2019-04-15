@@ -22,9 +22,7 @@ If you are working on mac, it is recommended to increase the resources the docke
 
 `docker ps` -> should launch an image like below
 
-<img src="assets/docker_ps.png" width="200" height="300">
-
-![docker ps output](assets/docker_ps.png)
+<img src="assets/docker_ps.png" width="400" height="400">
  
  Note down the PORTS information. We map the default jupyter notebook port 8888 and Dask's dashboard port 8787 to ports on your host machine that can be accessed.
 
