@@ -54,7 +54,9 @@ Dask provides a nice dashboard to monitor the cluster. This is usually available
 
 `
 cluster = LocalCluster()
+
 client = Client(cluster)
+
 client
 `
 
